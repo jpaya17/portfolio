@@ -6,6 +6,7 @@ import DesktopNav from "./DesktopNav.js";
 function Header() {
   return (
     <div className="header-container">
+      <Logo />
       <DesktopNav className="desktop-nav" />
       <Hamburger />
       {style}

@@ -23,10 +23,7 @@ function App() {
   return (
     <div>
       <Layout>
-        <div
-          className="landing-page-container"
-          onClick={srollDownToHelloSection}
-        >
+        <div className="landing-page-container" onClick={srollDownToHelloSection}>
           <div className="landing-logo-container">
             <div className="landing-logo-wrapper">
               <img className="avatar" src="/portfolio/img/avatar1.png" alt="avatar" />
@@ -44,7 +41,6 @@ function App() {
           <Hello fireAnimation={fireAnimation} />
         </div>
       </Layout>
-
       {style}
     </div>
   );
@@ -69,7 +65,6 @@ const style = (
       height: auto;
       margin-left: -0.5rem;
     }
-
     .over {
       color: var(--color2);
       font-family: var(--font2);

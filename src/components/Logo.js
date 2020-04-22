@@ -4,6 +4,7 @@ function Logo() {
   return (
     <div>
       <div className="logo" style={{ fontFamily: "Sectra" }}>
+        <a href="/" className="logo-letter">O</a>
       </div>
       {style}
     </div>

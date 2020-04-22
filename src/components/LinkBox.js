@@ -3,6 +3,20 @@ import React from 'react';
 function LinkBox(props) {
   return (
     <div className="linkbox-container">
+      <a href={props.link}>
+        <div className="text-box-container">
+          <div className="text-box">
+            <a href={props.externalLink} target={props.target} className="text">
+              {props.name}
+            </a>
+          </div>
+          {props.showArrow ? (
+            <div className="arrow-box">
+              <img className="arrow" src="/img/whitearrow3.png" alt="arrow" />
+            </div>
+          ) : null}
+        </div>
+      </a>
       {style}
       {!props.showArrow ? centeredTitle : null}
     </div>

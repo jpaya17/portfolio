@@ -10,6 +10,7 @@ const menuItems = [
 function renderMenuItems() {
   return menuItems.map(item => (
     <div className="title-plus-line-container">
+      <a href={item.link} className="menu-item-name">{item.name}</a>
       <div className="bottom-line"></div>
     </div>
   ));
@@ -25,7 +26,6 @@ function DesktopNav() {
         </a>
         <div className="bottom-line"></div>
       </div>
-
       {style}
     </div>
   );

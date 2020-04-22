@@ -6,11 +6,11 @@ function HamburgerOpenMenu(props) {
     <div className="hamburger-menu-container">
       <div className="nested-menu-container">
         <div className="menu-contents">
-          <a
-            href="/portfolio/img/cv2020.pdf"
-            target="_blank"
-            onClick={props.handleHamburgerClick}
-          >
+          <a href="/index" onClick={props.handleHamburgerClick}>HELLO</a>
+          <a href="/about" onClick={props.handleHamburgerClick}>ABOUT ME</a>
+          <a href="/portfolio" onClick={props.handleHamburgerClick}>PORTFOLIO</a>
+          <a href="/skills" onClick={props.handleHamburgerClick}>SKILLS</a>
+          <a href="/img/cv2020.pdf" target="_blank" onClick={props.handleHamburgerClick}>
             CV
           </a>
 
