@@ -4,7 +4,7 @@ function Nav() {
   return (
     <ul>
       <li>
-        <Link href="/about">
+        <Link href="/portfolio/about">
           <a>about</a>
         </Link>
       </li>

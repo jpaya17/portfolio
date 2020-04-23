@@ -8,8 +8,8 @@ function HelloText() {
         <span className=""> and a tennis lover.</span>
         <br />
         <p className="smaller2">
-          I am currently based in Igualada, Spain working at ENGISOFT.
-          Contributor of the UrbanNoise open-source project.
+          I am currently based in Igualada, Spain working at <span className="yellow">ENGISOFT</span>.
+          Contributor of the <span className="yellow">UrbanNoise</span> open-source project.
         </p>
         <div className="img-container">
           <img className="sardine" src="/portfolio/img/car.png" alt="car" />
@@ -54,8 +54,6 @@ const style = (
     }
     .yellow {
       color: var(--color2);
-      font-size: 2rem;
-      font-family: var(--font3);
     }
     @media (min-width: 801px) {
       .hello-text {
@@ -68,10 +66,6 @@ const style = (
       .smaller2 {
         font-size: 1.8rem;
         line-height: 2.4rem;
-        font-family: var(--font4);
-      }
-      .yellow {
-        font-size: 2.3rem;
         font-family: var(--font4);
       }
       .sardine {

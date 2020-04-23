@@ -1,10 +1,10 @@
 import React from 'react';
 
 const menuItems = [
-  { name: "HELLO", link: "/" },
+  { name: "HELLO", link: "/portfolio" },
   { name: "ABOUT ME", link: "/portfolio/about" },
-  { name: "PORTFOLIO", link: "/portfolio" },
-  { name: "SKILLS", link: "/skills" }
+  { name: "PORTFOLIO", link: "/portfolio/portfolio" },
+  { name: "SKILLS", link: "/portfolio/skills" }
 ];
 
 function renderMenuItems() {

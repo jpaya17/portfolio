@@ -1,7 +1,8 @@
-import Layout from "../components/Layout";
-import PageTitle from "../components/PageTitle";
-import ProjectItem from "../components/ProjectItem";
-import ProjectDetails from "../components/text/ProjectDetails";
+import React from 'react';
+import Layout from "./Layout";
+import PageTitle from "./PageTitle";
+import ProjectItem from "./ProjectItem";
+import ProjectDetails from "./text/ProjectDetails";
 
 function Portfolio() {
   return (

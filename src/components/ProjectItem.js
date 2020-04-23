@@ -1,3 +1,4 @@
+import React from 'react';
 import ProjectDescriptionTitle from "./ProjectDescriptionTitle";
 
 function ProjectItem(props) {

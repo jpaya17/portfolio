@@ -12,13 +12,13 @@ function Hello(props) {
       <PageTitle title="Hi there!" />
       <div className="under-the-title">
         <HelloText />
-        <LinkBox link={"/about"} name="about me" showArrow="true" />
-        <LinkBox link={"/portfolio"} name="portfolio" showArrow="true" />
-        <LinkBox link={"/skills"} name="skills" showArrow="true" />
+        <LinkBox link={"/portfolio/about"} name="About me" showArrow="true" />
+        <LinkBox link={"/portfolio/portfolio"} name="Portfolio" showArrow="true" />
+        <LinkBox link={"/portfolio/skills"} name="Skills" showArrow="true" />
         <LinkBox
           externalLink={"/portfolio/img/cv2020.pdf"}
           target={"_blank"}
-          name="cv"
+          name="CV"
           showArrow="true"
         />
       </div>

@@ -12,7 +12,7 @@ function LinkBox(props) {
           </div>
           {props.showArrow ? (
             <div className="arrow-box">
-              <img className="arrow" src="/img/whitearrow3.png" alt="arrow" />
+              <img className="arrow" src="/portfolio/img/whitearrow3.png" alt="arrow" />
             </div>
           ) : null}
         </div>

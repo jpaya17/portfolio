@@ -1,3 +1,5 @@
+import React from 'react';
+
 function SkillBar(props) {
   return (
     <div className="skill-bar-container">

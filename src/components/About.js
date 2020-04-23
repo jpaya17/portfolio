@@ -1,17 +1,14 @@
-import Layout from "../components/Layout";
-import PageTitle from "../components/PageTitle";
-import AboutText from "../components/text/AboutText";
+import React from 'react';
+import Layout from "./Layout";
+import PageTitle from "./PageTitle";
+import AboutText from "./text/AboutText";
 
 function About() {
   return (
     <Layout>
-      <PageTitle title="about Me" />
+      <PageTitle title="About me" />
       <div className="under-the-title">
-        <img
-          className="dancing-avatar"
-          src="/portfolio/img/shower.png"
-          alt="dancing-avatar"
-        />
+        <img className="dancing-avatar" src="/portfolio/img/shower.png" alt="dancing-avatar" />
         <AboutText />
       </div>
       {style}

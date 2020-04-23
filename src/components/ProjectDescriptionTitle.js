@@ -1,3 +1,5 @@
+import React from 'react';
+
 function ProjectDescriptionTitle(props) {
   return (
     <div className="project-title-container">

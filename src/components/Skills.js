@@ -1,6 +1,7 @@
-import Layout from "../components/Layout";
-import PageTitle from "../components/PageTitle";
-import SkillBar from "../components/SkillBar";
+import React from 'react';
+import Layout from "./Layout";
+import PageTitle from "./PageTitle";
+import SkillBar from "./SkillBar";
 
 function Skills() {
   return (
