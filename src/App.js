@@ -22,7 +22,7 @@ function App() {
             <About />
           </Route>
           <Route path="/">
-            <Home title={"Jose Maria - Mobile Developer"} />
+            <Home />
           </Route>
         </Switch>
       </div>
