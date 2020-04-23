@@ -4,7 +4,9 @@ import { useRef, useState, useEffect } from "react";
 import Layout from "./Layout";
 import Hello from "./Hello";
 
-function Home(props) {
+const title = "Jose Maria - Mobile Developer";
+
+function Home() {
   const [fireAnimation, setFireAnimation] = useState(false);
 
   let helloSection = useRef();
@@ -19,7 +21,7 @@ function Home(props) {
 
   useEffect(() => {
     window.addEventListener("scroll", fireAnimationWhenScrollingDown);
-    document.title = props.title;
+    document.title = title;
   }, []);
 
   return (

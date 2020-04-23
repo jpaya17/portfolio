@@ -5,15 +5,17 @@ import Layout from "./Layout";
 import PageTitle from "./PageTitle";
 import AboutText from "./text/AboutText";
 
-function About(props) {
+const title = "About Me";
+
+function About() {
 
   useEffect(() => {
-    document.title = props.title;
+    document.title = title;
   }, []);
 
   return (
     <Layout>
-      <PageTitle title={props.title} />
+      <PageTitle title={title} />
       <div className="under-the-title">
         <img className="dancing-avatar" src="/portfolio/img/shower.png" alt="dancing-avatar" />
         <AboutText />

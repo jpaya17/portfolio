@@ -5,15 +5,17 @@ import Layout from "./Layout";
 import PageTitle from "./PageTitle";
 import SkillBar from "./SkillBar";
 
-function Skills(props) {
+const title = "My Technical Skills";
+
+function Skills() {
 
   useEffect(() => {
-    document.title = props.title;
+    document.title = title;
   }, []);
 
   return (
     <Layout>
-      <PageTitle title={props.title} />
+      <PageTitle title={title} />
       <div className="books-pic-container">
         <img className="books" src="/portfolio/img/bookish.png" alt="me-carrying-books" />
       </div>

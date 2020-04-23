@@ -6,16 +6,18 @@ import PageTitle from "./PageTitle";
 import ProjectItem from "./ProjectItem";
 import ProjectDetails from "./text/ProjectDetails";
 
-function Portfolio(props) {
+const title = "My Portfolio";
+
+function Portfolio() {
 
   useEffect(() => {
-    document.title = props.title;
+    document.title = title;
   }, []);
 
   return (
     <Layout>
       <div className="portfolio-container">
-        <PageTitle title={props.title} />
+        <PageTitle title={title} />
         <div className="projects-section">
           <ProjectItem {...ProjectDetails.palette} />
           <ProjectItem {...ProjectDetails.elis} />
