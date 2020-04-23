@@ -1,12 +1,19 @@
 import React from 'react';
+import { useEffect } from 'react';
+
 import Layout from "./Layout";
 import PageTitle from "./PageTitle";
 import AboutText from "./text/AboutText";
 
-function About() {
+function About(props) {
+
+  useEffect(() => {
+    document.title = props.title;
+  }, []);
+
   return (
     <Layout>
-      <PageTitle title="About me" />
+      <PageTitle title={props.title} />
       <div className="under-the-title">
         <img className="dancing-avatar" src="/portfolio/img/shower.png" alt="dancing-avatar" />
         <AboutText />

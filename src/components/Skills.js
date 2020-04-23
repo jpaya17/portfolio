@@ -1,27 +1,46 @@
 import React from 'react';
+import { useEffect } from 'react';
+
 import Layout from "./Layout";
 import PageTitle from "./PageTitle";
 import SkillBar from "./SkillBar";
 
-function Skills() {
+function Skills(props) {
+
+  useEffect(() => {
+    document.title = props.title;
+  }, []);
+
   return (
     <Layout>
-      <PageTitle title="my technical Skills" />
+      <PageTitle title={props.title} />
       <div className="books-pic-container">
         <img className="books" src="/portfolio/img/bookish.png" alt="me-carrying-books" />
       </div>
 
+      <PageTitle title="Frameworks / Technologies" />
       <div className="skill-bar-group">
-        <SkillBar skillName="JavaScript" percentage="90%" />
-        <SkillBar skillName="React" percentage="85%" />
-        <SkillBar skillName="Next.js" percentage="85%" />
-        <SkillBar skillName="CSS" percentage="90%" />
-        <SkillBar skillName="HTML" percentage="90%" />
-        <SkillBar skillName="React-Native" percentage="50%" />
-        <SkillBar skillName="jQuery" percentage="70%" />
+        <SkillBar skillName="Android" percentage="90%" />
+        <SkillBar skillName="iOS" percentage="50%" />
+        <SkillBar skillName="Django" percentage="65%" />
+        <SkillBar skillName="Ionic" percentage="55%" />
+      </div>
+
+      <PageTitle title="Programming Languages" />      
+      <div className="skill-bar-group">
+        <SkillBar skillName="Java" percentage="90%" />
+        <SkillBar skillName="Kotlin" percentage="70%" />
+        <SkillBar skillName="Javascript" percentage="75%" />
         <SkillBar skillName="Python" percentage="50%" />
-        <SkillBar skillName="Figma" percentage="50%" />
-        <SkillBar skillName="Git" percentage="65%" />
+        <SkillBar skillName="Swift" percentage="35%" />
+      </div>
+
+      <PageTitle title="Others" />
+      <div className="skill-bar-group">
+        <SkillBar skillName="Design Patters" percentage="55%" />
+        <SkillBar skillName="Clean Architecture" percentage="65%" />
+        <SkillBar skillName="S.O.L.I.D Principles" percentage="85%" />
+        <SkillBar skillName="Git" percentage="80%" />
       </div>
       {style}
     </Layout>

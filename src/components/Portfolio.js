@@ -1,14 +1,21 @@
 import React from 'react';
+import { useEffect } from 'react';
+
 import Layout from "./Layout";
 import PageTitle from "./PageTitle";
 import ProjectItem from "./ProjectItem";
 import ProjectDetails from "./text/ProjectDetails";
 
-function Portfolio() {
+function Portfolio(props) {
+
+  useEffect(() => {
+    document.title = props.title;
+  }, []);
+
   return (
     <Layout>
       <div className="portfolio-container">
-        <PageTitle title="my Portfolio" />
+        <PageTitle title={props.title} />
         <div className="projects-section">
           <ProjectItem {...ProjectDetails.palette} />
           <ProjectItem {...ProjectDetails.elis} />
@@ -16,7 +23,6 @@ function Portfolio() {
           <ProjectItem {...ProjectDetails.raum404} />
           <ProjectItem {...ProjectDetails.izem} />
         </div>
-
         {style}
       </div>
     </Layout>

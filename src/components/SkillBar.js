@@ -13,7 +13,6 @@ function SkillBar(props) {
           <div className="skill-bar" style={{ width: props.percentage }}></div>
         </div>
       </div>
-
       {style}
     </div>
   );
@@ -38,7 +37,6 @@ const style = (
       margin-block-start: 0.5rem;
       margin-block-end: 0.5rem;
     }
-
     .skill-measure-bar-container {
     }
     .skill-bar-outline {

@@ -1,9 +1,10 @@
 import React from 'react';
 import { useRef, useState, useEffect } from "react";
+
 import Layout from "./Layout";
 import Hello from "./Hello";
 
-function Home() {
+function Home(props) {
   const [fireAnimation, setFireAnimation] = useState(false);
 
   let helloSection = useRef();
@@ -18,6 +19,7 @@ function Home() {
 
   useEffect(() => {
     window.addEventListener("scroll", fireAnimationWhenScrollingDown);
+    document.title = props.title;
   }, []);
 
   return (
@@ -65,7 +67,6 @@ const style = (
       height: auto;
       margin-left: -0.5rem;
     }
-
     .over {
       color: var(--color2);
       font-family: var(--font2);
