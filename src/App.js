@@ -9,35 +9,18 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/portfolio">Hello</Link>
-            </li>
-            <li>
-              <Link to="/portfolio/about">About</Link>
-            </li>
-            <li>
-              <Link to="/portfolio/portfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="/portfolio/skills">Skills</Link>
-            </li>
-          </ul>
-        </nav>
-
         {/* A <Switch> looks through its children <Route>s and renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/portfolio/skills">
+          <Route path="/skills">
             <Skills />
           </Route>
-          <Route path="/portfolio/portfolio">
+          <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/portfolio/about">
+          <Route path="/about">
             <About />
           </Route>
-          <Route path="/portfolio">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

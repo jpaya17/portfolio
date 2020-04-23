@@ -1,26 +1,33 @@
 import React from 'react';
 import SocialIcons from "./SocialIcons.js";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function HamburgerOpenMenu(props) {
   return (
     <div className="hamburger-menu-container">
       <div className="nested-menu-container">
         <div className="menu-contents">
-          <a href="/portfolio" onClick={props.handleHamburgerClick}>HELLO</a>
-          <a href="/portfolio/about" onClick={props.handleHamburgerClick}>ABOUT ME</a>
-          <a href="/portfolio/portfolio" onClick={props.handleHamburgerClick}>PORTFOLIO</a>
-          <a href="/portfolio/skills" onClick={props.handleHamburgerClick}>SKILLS</a>
+          <Link to="/">
+            <a onClick={props.handleHamburgerClick}>HELLO</a>
+          </Link>
+          <Link to="/about">
+            <a onClick={props.handleHamburgerClick}>ABOUT ME</a>
+          </Link>
+          <Link to="/portfolio">
+            <a onClick={props.handleHamburgerClick}>PORTFOLIO</a>
+          </Link>
+          <Link to="/skills">
+            <a onClick={props.handleHamburgerClick}>SKILLS</a>
+          </Link>
           <a href="/img/cv2020.pdf" target="_blank" onClick={props.handleHamburgerClick}>
             CV
           </a>
-
           <div className="get-in-touch">
             <p>GET IN TOUCH</p>
             <SocialIcons />
           </div>
         </div>
       </div>
-
       {style}
     </div>
   );

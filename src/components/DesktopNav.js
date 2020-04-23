@@ -1,16 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const menuItems = [
-  { name: "HELLO", link: "/portfolio" },
-  { name: "ABOUT ME", link: "/portfolio/about" },
-  { name: "PORTFOLIO", link: "/portfolio/portfolio" },
-  { name: "SKILLS", link: "/portfolio/skills" }
+  { name: "HELLO", link: "/" },
+  { name: "ABOUT ME", link: "/about" },
+  { name: "PORTFOLIO", link: "/portfolio" },
+  { name: "SKILLS", link: "/skills" }
 ];
 
 function renderMenuItems() {
   return menuItems.map(item => (
     <div className="title-plus-line-container">
-      <a href={item.link} className="menu-item-name">{item.name}</a>
+      <Link to={item.link}>
+        <a className="menu-item-name">{item.name}</a>
+      </Link>
       <div className="bottom-line"></div>
     </div>
   ));
