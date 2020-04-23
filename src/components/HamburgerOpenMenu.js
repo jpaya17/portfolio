@@ -13,7 +13,7 @@ function HamburgerOpenMenu(props) {
           <Link to="/about">
             <a onClick={props.handleHamburgerClick}>ABOUT ME</a>
           </Link>
-          <Link to="/portfolio">
+          <Link to="/myportfolio">
             <a onClick={props.handleHamburgerClick}>PORTFOLIO</a>
           </Link>
           <Link to="/skills">

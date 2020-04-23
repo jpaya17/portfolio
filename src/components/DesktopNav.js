@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const menuItems = [
   { name: "HELLO", link: "/" },
   { name: "ABOUT ME", link: "/about" },
-  { name: "PORTFOLIO", link: "/portfolio" },
+  { name: "PORTFOLIO", link: "/myportfolio" },
   { name: "SKILLS", link: "/skills" }
 ];
 

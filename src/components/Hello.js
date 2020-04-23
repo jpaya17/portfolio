@@ -12,9 +12,9 @@ function Hello(props) {
       <PageTitle title="Hi there!" />
       <div className="under-the-title">
         <HelloText />
-        <LinkBox link={"/portfolio/about"} name="About me" showArrow="true" />
-        <LinkBox link={"/portfolio/portfolio"} name="Portfolio" showArrow="true" />
-        <LinkBox link={"/portfolio/skills"} name="Skills" showArrow="true" />
+        <LinkBox link={"/about"} name="About me" showArrow="true" />
+        <LinkBox link={"/myportfolio"} name="Portfolio" showArrow="true" />
+        <LinkBox link={"/skills"} name="Skills" showArrow="true" />
         <LinkBox
           externalLink={"/portfolio/img/cv2020.pdf"}
           target={"_blank"}
