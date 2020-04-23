@@ -4,25 +4,25 @@ const GlobalStyles = (
   <style jsx global>{`
     @font-face {
       font-family: "PxGroteskBold";
-      src: url("portfolio/fonts/PxGrotesk-Bold.woff2") format("woff2");
-      src: url("portfolio/fonts/PxGrotesk-Bold.woff") format("woff");
-      src: url("portfolio/fonts/PxGroteskBold.ttf") format("truetype");
+      src: url("fonts/PxGrotesk-Bold.woff2") format("woff2");
+      src: url("fonts/PxGrotesk-Bold.woff") format("woff");
+      src: url("fonts/PxGroteskBold.ttf") format("truetype");
     }
     @font-face {
       font-family: "Sectra";
-      src: url("portfolio/fonts/Sectra.woff2") format("woff2");
-      src: url("portfolio/fonts/Sectra.woff") format("woff");
-      src: url("portfolio/fonts/Sectra.ttf") format("truetype");
+      src: url("fonts/Sectra.woff2") format("woff2");
+      src: url("fonts/Sectra.woff") format("woff");
+      src: url("fonts/Sectra.ttf") format("truetype");
     }
     @font-face {
       font-family: "WorkSans-Bold";
-      src: url("portfolio/fonts/WorkSans-Bold.woff2") format("woff2");
-      src: url("portfolio/fonts/WorkSans-Bold.woff") format("woff");
-      src: url("portfolio/fonts/WorkSans-Bold.ttf") format("truetype");
+      src: url("fonts/WorkSans-Bold.woff2") format("woff2");
+      src: url("fonts/WorkSans-Bold.woff") format("woff");
+      src: url("fonts/WorkSans-Bold.ttf") format("truetype");
     }
     @font-face {
       font-family: "WorkSans-Regular";
-      src: url("portfolio/fonts/WorkSans-Regular.ttf") format("truetype");
+      src: url("fonts/WorkSans-Regular.ttf") format("truetype");
     }
 
     :root {
