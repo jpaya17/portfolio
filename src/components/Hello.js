@@ -9,7 +9,7 @@ function Hello(props) {
     : "hello-container";
   return (
     <div className={helloContainerClassName}>
-      <PageTitle title="Hey, Hi" />
+      <PageTitle title="Hi there!" />
       <div className="under-the-title">
         <HelloText />
         <LinkBox link={"/about"} name="about me" showArrow="true" />

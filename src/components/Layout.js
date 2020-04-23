@@ -10,17 +10,6 @@ function Layout(props) {
         <Header />
         {props.children}
         <div className="footer">
-          <div className="open-source">
-            (Built with react.js and open-sourced on{" "}
-            <a
-              className="github-link"
-              href="https://github.com/jeremieemk/overdub/"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            )
-          </div>
           <SocialIcons />
         </div>
       </div>

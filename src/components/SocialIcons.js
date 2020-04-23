@@ -3,20 +3,12 @@ import React from 'react';
 function SocialIcons() {
   return (
     <div className="social-icons">
-      <a href="https://www.facebook.com/jeremieemk" target="_blank">
-        <img className="social-icon-pic fb" src="/portfolio/img/fb.png" alt="fb" />
-      </a>
       <a
-        href="https://www.linkedin.com/in/jeremiemoussaidkerouanton/"
-        target="_blank"
-      >
-        <img
-          className="social-icon-pic"
-          src="/portfolio/img/linkedin.png"
-          alt="linkedin"
-        />
+        href="https://www.linkedin.com/in/jpayacastillo" target="_blank">
+        <img className="social-icon-pic" src="/portfolio/img/linkedin.png"
+          alt="linkedin"/>
       </a>
-      <a href="mailto:jeremieemk@gmail.com" target="_blank">
+      <a href="mailto:josepaya17@gmail.com" target="_blank">
         <img className="social-icon-pic mail" src="/portfolio/img/mail.png" alt="mail" />
       </a>
       {style}

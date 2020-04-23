@@ -4,11 +4,12 @@ function HelloText() {
   return (
     <div className="hello-text">
       <p className="upper-text">
-        I’m Jérémie. I am a <span className="yellow">coder</span> , a music
-        producer <span className="">and a bearded polyglot. </span>
+        This is Jose Maria. I am a <span className="yellow">Mobile Developer</span>, a traveller
+        <span className=""> and a tennis lover.</span>
         <br />
         <p className="smaller2">
-          I was born in France and I am currently based in Lisbon, Portugal.
+          I am currently based in Igualada, Spain working at ENGISOFT.
+          Contributor of the UrbanNoise open-source project.
         </p>
         <div className="img-container">
           <img className="sardine" src="/portfolio/img/car.png" alt="car" />

@@ -27,10 +27,10 @@ function App() {
           <div className="landing-logo-container">
             <div className="landing-logo-wrapper">
               <img className="avatar" src="/portfolio/img/avatar1.png" alt="avatar" />
-              <h1 className="over">over-</h1>
-              <h1 className="dub">duB</h1>
+              <h1 className="over">Jose-</h1>
+              <h1 className="dub">Maria</h1>
               <hr></hr>
-              <h2 className="web">WEB DEV.</h2>
+              <h2 className="web">Mobile Developer</h2>
             </div>
           </div>
           <div className="arrow-container">
