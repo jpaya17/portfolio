@@ -25,7 +25,7 @@ function Skills() {
         <SkillBar skillName="Android" percentage="90%" />
         <SkillBar skillName="iOS" percentage="50%" />
         <SkillBar skillName="Django" percentage="65%" />
-        <SkillBar skillName="Ionic" percentage="55%" />
+        <SkillBar skillName="Ionic Framework" percentage="55%" />
       </div>
 
       <PageTitle title="Programming Languages" />      

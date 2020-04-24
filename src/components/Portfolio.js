@@ -19,11 +19,13 @@ function Portfolio() {
       <div className="portfolio-container">
         <PageTitle title={title} />
         <div className="projects-section">
-          <ProjectItem {...ProjectDetails.palette} />
-          <ProjectItem {...ProjectDetails.elis} />
-          <ProjectItem {...ProjectDetails.escuta} />
-          <ProjectItem {...ProjectDetails.raum404} />
-          <ProjectItem {...ProjectDetails.izem} />
+          <ProjectItem {...ProjectDetails.appsm} />
+          <ProjectItem {...ProjectDetails.apppos} />
+          <ProjectItem {...ProjectDetails.smartlift} />
+          <ProjectItem {...ProjectDetails.mynh} />
+          <ProjectItem {...ProjectDetails.deuce} />
+          <ProjectItem {...ProjectDetails.kfew} />
+          <ProjectItem {...ProjectDetails.pvmintranet} />
         </div>
         {style}
       </div>

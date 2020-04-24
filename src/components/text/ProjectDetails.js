@@ -1,45 +1,67 @@
 const ProjectDetails = {
-  palette: {
-    name: "Palette List",
-    company: "Uplabs",
-    role: "Frontend Developer.",
-    tools: "React",
-    img: "/portfolio/img/palette.png",
-    link: "https://www.palettelist.com/.com",
+  appsm: {
+    name: "Bird Sales",
+    company: "ENGISOFT",
+    year: "2015",
+    role: "Android Developer",
+    tools: "Android SDK & REST API",
+    img: "/portfolio/img/appsm.png",
+    link: "https://play.google.com/store/apps/details?id=com.engisoft.appsm"
   },
-  elis: {
-    name: "elis-records.com",
-    company: "Elis Records (Paris, France)",
-    role: "Full Stack Developer.",
-    tools: "React, Next.js, Prismic.io",
-    img: "/portfolio/img/elis-records.png",
-    link: "http://www.elis-records.com",
+  apppos: {
+    name: "Engisoft POS",
+    company: "ENGISOFT",
+    year: "2016",
+    role: "Android & iOS Developer",
+    tools: "Android SDK, iOS SDK, REST API & SQLite",
+    img: "/portfolio/img/apppos.png",
+    link: "https://play.google.com/store/apps/details?id=com.engisoft.apppos"
   },
-  escuta: {
-    name: "escuta.pt",
-    company: "Largo Residencias (Lisbon, Portugal)",
-    role: "Front End developer.",
-    tools:
-      "React, React-router, Google-map-react, React-switch-lang, Strapi, Material UI",
-    img: "/portfolio/img/escutaScreen.png",
-    link: "http://www.escuta.pt/radio",
+  smartlift: {
+    name: "SmartLift Platinum",
+    company: "ENGISOFT",
+    year: "2017",
+    role: "Android Developer",
+    tools: "Android SDK, Bluetooth Low Energy & OpenGL",
+    img: "/portfolio/img/smartlift.png",
+    link: "http://www.smartlift.es/interlift17s?osCsid=pibnfpju23s8kdppdh4m5k8ga6"
   },
-  raum404: {
-    name: "raum404.ch",
-    company: "Raum404 (Zurich, Switzerland)",
-    role: "Fullstack Developer",
-    tools: "CSS, jQuery, Vapid",
-    img: "/portfolio/img/raum404Screen.png",
-    link: "https://www.raum404.ch/",
+  mynh: {
+    name: "MyNH",
+    company: "ENGISOFT",
+    year: "2018",
+    role: "Android & iOS Developer",
+    tools: "Ionic Framework & REST API",
+    img: "/portfolio/img/mynh.png",
+    link: "https://play.google.com/store/apps/details?id=com.nh.employee"
   },
-  izem: {
-    name: "izem.me",
-    company: "iZem (Lisbon, Portugal)",
-    role: "FullStack Developer, Designer",
-    tools: "Python Flask, Javascript, CSS",
-    img: "/portfolio/img/izemScreen.png",
-    link: "http://www.izem.me/",
+  deuce: {
+    name: "MyNH",
+    company: "ENGISOFT",
+    year: "2018",
+    role: "Android Developer",
+    tools: "Android SDK & Firebase",
+    img: "/portfolio/img/deuce.png",
+    link: "https://deuce-android.firebaseapp.com/"    
   },
+  kfew: {
+    name: "MyKfew",
+    company: "ENGISOFT",
+    year: "2019",
+    role: "Web Developer",
+    tools: "Django & Amazon Web Services",
+    img: "/portfolio/img/kfew.png",
+    link: "https://www.kfewsystems.com"
+  },
+  pvmintranet: {
+    name: "PVM Intranet",
+    company: "ENGISOFT",
+    year: "2020",
+    role: "Web Developer",
+    tools: "Spring Boot & Bootstrap",
+    img: "/portfolio/img/pvmintranet.png",
+    link: "http://www.pvmlicensing.com"
+  }
 };
 
 export default ProjectDetails;
