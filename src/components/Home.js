@@ -30,7 +30,7 @@ function Home() {
         <div className="landing-page-container" onClick={srollDownToHelloSection}>
           <div className="landing-logo-container">
             <div className="landing-logo-wrapper">
-              <img className="avatar" src="/portfolio/img/avatar1.png" alt="avatar" />
+              <img className="avatar" src="/portfolio/img/hey.png" alt="avatar" />
               <h1 className="over">Jose</h1>
               <h1 className="dub">Maria</h1>
               <hr></hr>
@@ -67,7 +67,7 @@ const style = (
     .avatar {
       width: 5.5rem;
       height: auto;
-      margin-left: -0.5rem;
+      margin-left: 0.2rem;
     }
     .over {
       color: var(--color2);

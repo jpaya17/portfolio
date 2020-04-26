@@ -17,7 +17,7 @@ function About() {
     <Layout>
       <PageTitle title={title} />
       <div className="under-the-title">
-        <img className="dancing-avatar" src="/portfolio/img/shower.png" alt="dancing-avatar" />
+        <img className="dancing-avatar" src="/portfolio/img/tennis.png" alt="dancing-avatar" />
         <AboutText />
       </div>
       {style}

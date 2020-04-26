@@ -17,7 +17,7 @@ function Skills() {
     <Layout>
       <PageTitle title={title} />
       <div className="books-pic-container">
-        <img className="books" src="/portfolio/img/bookish.png" alt="me-carrying-books" />
+        <img className="books" src="/portfolio/img/skills.png" alt="me-carrying-books" />
       </div>
 
       <PageTitle title="Frameworks / Technologies" />
@@ -52,7 +52,7 @@ function Skills() {
 const style = (
   <style jsx>{`
     .books {
-      width: 15rem;
+      width: 10rem;
       height: auto;
     }
     .books-pic-container {
@@ -76,7 +76,7 @@ const style = (
         padding-right: var(--desktop-padding);
       }
       .books {
-        width: 20rem;
+        width: 15rem;
         height: auto;
       }
     }
