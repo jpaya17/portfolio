@@ -36,7 +36,7 @@ const ProjectDetails = {
     link: "https://play.google.com/store/apps/details?id=com.nh.employee"
   },
   deuce: {
-    name: "MyNH",
+    name: "Deuce",
     company: "ENGISOFT",
     year: "2018",
     role: "Android Developer",
