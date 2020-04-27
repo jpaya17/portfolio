@@ -7,18 +7,11 @@ function ProjectItem(props) {
       <div className="project-info-section">
         <div>
           <ProjectDescriptionTitle title="WEBSITE" />
-          <a
-            href={props.link}
-            target="_blank"
-            className="link-and-arrow-container"
-          >
+          <a href={props.link} target="_blank" className="link-and-arrow-container">
             <p>{props.name}</p>
             <div className="link-arrow-container">
-              <img
-                className="link-arrow"
-                src="/portfolio/img/whitearrow3.png"
-                alt="arrow"
-              />
+              <img className="link-arrow" src="/portfolio/img/whitearrow3.png"
+                alt="arrow" />
             </div>
           </a>
         </div>
@@ -35,7 +28,6 @@ function ProjectItem(props) {
           <p>{props.tools}</p>
         </div>
       </div>
-
       <a href={props.link} target="_blank">
         <img className="screenshot" src={props.img} alt="screenshot" />
       </a>

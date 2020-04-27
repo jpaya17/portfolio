@@ -37,7 +37,7 @@ const ProjectDetails = {
   },
   deuce: {
     name: "Deuce",
-    company: "ENGISOFT",
+    company: "Personal Project",
     year: "2018",
     role: "Android Developer",
     tools: "Android SDK & Firebase",
