@@ -9,18 +9,13 @@ function Hello(props) {
     : "hello-container";
   return (
     <div className={helloContainerClassName}>
-      <PageTitle title="Hi there!" />
+      <PageTitle title="Hi everyone!" />
       <div className="under-the-title">
         <HelloText />
         <LinkBox link={"/about"} name="About me" showArrow="true" />
         <LinkBox link={"/myportfolio"} name="Portfolio" showArrow="true" />
         <LinkBox link={"/skills"} name="Skills" showArrow="true" />
-        <LinkBox
-          externalLink={"/portfolio/img/cv2020.pdf"}
-          target={"_blank"}
-          name="CV"
-          showArrow="true"
-        />
+        <LinkBox externalLink={"/portfolio/img/cv2020.pdf"} target={"_blank"} name="CV" showArrow="true" />
       </div>
       {style}
     </div>
