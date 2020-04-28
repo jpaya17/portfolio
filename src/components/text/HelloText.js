@@ -8,7 +8,7 @@ function HelloText() {
         <br />
         <p className="smaller2">
           I am currently based in Igualada, Spain.
-          Working at <span className="yellow">ENGISOFT</span> and contributing on the <span className="yellow">UrbanNoise</span> open-source project.
+          Working at <span className="yellow">ENGISOFT</span> and contributing to the <span className="yellow">UrbanNoise</span> open-source project.
         </p>
         <div className="img-container">
           <img className="sardine" src="/portfolio/img/car.png" alt="car" />

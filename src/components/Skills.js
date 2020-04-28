@@ -19,7 +19,6 @@ function Skills() {
       <div className="books-pic-container">
         <img className="books" src="/portfolio/img/skills.png" alt="me-carrying-books" />
       </div>
-
       <PageTitle title="Frameworks / Technologies" />
       <div className="skill-bar-group">
         <SkillBar skillName="Android" percentage="90%" />
@@ -27,7 +26,6 @@ function Skills() {
         <SkillBar skillName="Django" percentage="65%" />
         <SkillBar skillName="Ionic Framework" percentage="55%" />
       </div>
-
       <PageTitle title="Programming Languages" />      
       <div className="skill-bar-group">
         <SkillBar skillName="Java" percentage="90%" />
@@ -36,13 +34,18 @@ function Skills() {
         <SkillBar skillName="Python" percentage="50%" />
         <SkillBar skillName="Swift" percentage="35%" />
       </div>
-
       <PageTitle title="Others" />
       <div className="skill-bar-group">
         <SkillBar skillName="Design Patters" percentage="55%" />
         <SkillBar skillName="Clean Architecture" percentage="65%" />
         <SkillBar skillName="S.O.L.I.D Principles" percentage="85%" />
         <SkillBar skillName="Git" percentage="80%" />
+      </div>
+      <PageTitle title="Languages" />
+      <div className="skill-bar-group">
+        <SkillBar skillName="English" percentage="75%" />
+        <SkillBar skillName="Spanish" percentage="90%" />
+        <SkillBar skillName="Catalan" percentage="90%" />
       </div>
       {style}
     </Layout>
